@@ -1,23 +1,23 @@
-import React from "react";
-import Nav from "./Nav";
-import Sections from "./sections";
-import Footer from "./footer";
-import Carousal from "./Carousal";
-import Discount from "./discounts";
-import Ad from "./ad";
+import React from 'react'
+import {Link} from "react-router-dom";
+import Nav from ".Pges/Nav";
+import Footer from ".Pges/footer";
+import Carousal from ".Pges/Carousal";
+import Discount from ".Pges/discounts";
+import Ad from ".Pges/ad";
 // import Data from "./Data";
-import Product from "./product";
-import OurProduct from './lauches'
-import Smart from './Smart'
-
-
-function App(params) {
+import Product from ".Pges/product";
+import OurProduct from '.Pges/lauches'
+ const Jiomart = () => {
   return (
-    <>
-   
+    <div>
+        
       <Nav />
       
-      <Sections />
+    
+      <Link to="/" className="jio-mart">Jiomart</Link>  
+      <Link to="/Smart" className="smart">Smart</Link>  
+      <br />
       <br /> <br />
       <Carousal />
       <br />
@@ -120,7 +120,8 @@ function App(params) {
       <br />
       {/* <Smart/> */}
       <Footer />
-    </>
-  );
+      
+    </div>
+  )
 }
-export default App;
+export default Jiomart

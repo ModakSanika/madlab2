@@ -1,4 +1,7 @@
-// 
+// import Nav from "./Nav";
+// import Sections from "./sections";
+// import Footer from "./footer";
+// import Carousal from "./Carousal";
 import React from 'react'
 
 const Smart = () => {

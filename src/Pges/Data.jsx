@@ -1,7 +1,7 @@
-
+import serum from "../../assets/serum.webp";
 let Data=[
     {
-        imgsrc:'https://www.drsheths.com/cdn/shop/products/PRA_0110_600x.jpg?v=1665674079',        
+        imgsrc: {serum} ,        
         sname:'Serum',
         link:'https://www.drsheths.com/',
     },

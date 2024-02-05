@@ -18,6 +18,7 @@ function Arrow(props) {
 const Carousal = () => {
 
   const settings = {
+   
     dots: true,
     speed: 700,
     slidesToShow: 4,
